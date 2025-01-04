@@ -9,8 +9,8 @@ pub fn process_embl(input_embl: &str, output_json: &str) {
     let file = File::open(input_embl).expect("Failed to open EMBL file");
     let reader = BufReader::new(file);
 
-    // String to store all JSON output content
-    let mut content = String::new();
+    // Vector to store all JSON output content
+    let mut content = Vec::new();
     // Counter for assigning unique IDs to relationships
     let mut rid: u64 = 0;
 
@@ -135,8 +135,7 @@ pub fn process_embl(input_embl: &str, output_json: &str) {
         }
     });
 
-    content.push_str(&serde_json::to_string(&contig_node).unwrap());
-    content.push('\n');
+    content.push(contig_node);
 
     // Iterate over each feature to generate nodes and relationships
     for (index, feature) in features.iter().enumerate() {
@@ -155,8 +154,7 @@ pub fn process_embl(input_embl: &str, output_json: &str) {
             }
         });
 
-        content.push_str(&serde_json::to_string(&feature_node).unwrap());
-        content.push('\n');
+        content.push(feature_node);
 
         let relationship_label = if index == 0 { "OWNS" } else { "NEXT" };
         let start_id = if index == 0 { seq_record_id.clone() } else { format!("{}_{}", seq_record_id, index - 1) };
@@ -172,14 +170,13 @@ pub fn process_embl(input_embl: &str, output_json: &str) {
         });
 
         rid += 1;
-        content.push_str(&serde_json::to_string(&relationship).unwrap());
-        content.push('\n');
+        content.push(relationship);
     }
 
     //creating a new file of the output parameter
     let mut output_file = File::create(output_json).expect("Failed to create JSON file");
     //writing all the json content into the output file
-    output_file.write_all(content.as_bytes()).expect("Failed to write JSON");
+    output_file.write_all(serde_json::to_string_pretty(&content).unwrap().as_bytes()).expect("Failed to write JSON");
 
     // Generate a DOT graph from the JSON output
     generate_graph(output_json, "graph/graph.dot");
@@ -191,38 +188,38 @@ fn generate_graph(input_json: &str, output_dot: &str) {
     let file = File::open(input_json).expect("Failed to open JSON file.");
     let reader = BufReader::new(file);
 
+    let json_content: Value = serde_json::from_reader(reader).expect("Failed to parse JSON.");
+
     // Initialize the DOT file content with the graph declaration
     let mut dot_content = String::from("digraph G {\n");
 
-    // Process each line from the JSON file
-    for line in reader.lines() {
-        let line = line.expect("Failed to read lines from JSON file");
-        let value: Value = serde_json::from_str(&line).expect("Failed to parse JSON line.");
-
-        // Match the type of the JSON object (node or relationship)
-        match value.get("type").and_then(|v| v.as_str()) {
-            // Handle node representation
-            Some("node") => {
-                // Extract node ID and name for DOT representation
-                let id = value["id"].as_str().unwrap();
-                // Replace double quotes with escaped double quotes for DOT compatibility
-                let name = value["properties"]["name"].as_str().unwrap_or("unknown").replace("\"", "\\\"");
-                // Append the node representation to the DOT content
-                dot_content.push_str(&format!("    \"{}\" [label=\"{}\"]\n", id, name));
+    if let Some(array) = json_content.as_array() {
+        for value in array {
+            // Match the type of the JSON object (node or relationship)
+            match value.get("type").and_then(|v| v.as_str()) {
+                // Handle node representation
+                Some("node") => {
+                    // Extract node ID and name for DOT representation
+                    let id = value["id"].as_str().unwrap();
+                    // Replace double quotes with escaped double quotes for DOT compatibility
+                    let name = value["properties"]["name"].as_str().unwrap_or("unknown").replace("\"", "\\\"");
+                    // Append the node representation to the DOT content
+                    dot_content.push_str(&format!("    \"{}\" [label=\"{}\"]\n", id, name));
+                }
+                // Handle relationship representation
+                Some("relationship") => {
+                    // Extract relationship start ID, end ID, and label for DOT representation
+                    let start_id = value["start"]["id"].as_str().unwrap();
+                    // Replace double quotes with escaped double quotes for DOT compatibility
+                    let end_id = value["end"]["id"].as_str().unwrap();
+                    // Replace double quotes with escaped double quotes for DOT compatibility
+                    let label = value["label"].as_str().unwrap_or("unknown").replace("\"", "\\\"");
+                    // Append the relationship representation to the DOT content
+                    dot_content.push_str(&format!("    \"{}\" -> \"{}\" [label=\"{}\"]\n", start_id, end_id, label));
+                }
+                // Ignore other types of JSON objects
+                _ => {}
             }
-            // Handle relationship representation
-            Some("relationship") => {
-                // Extract relationship start ID, end ID, and label for DOT representation
-                let start_id = value["start"]["id"].as_str().unwrap();
-                // Replace double quotes with escaped double quotes for DOT compatibility
-                let end_id = value["end"]["id"].as_str().unwrap();
-                // Replace double quotes with escaped double quotes for DOT compatibility
-                let label = value["label"].as_str().unwrap_or("unknown").replace("\"", "\\\"");
-                // Append the relationship representation to the DOT content
-                dot_content.push_str(&format!("    \"{}\" -> \"{}\" [label=\"{}\"]\n", start_id, end_id, label));
-            }
-            // Ignore other types of JSON objects
-            _ => {}
         }
     }
 
