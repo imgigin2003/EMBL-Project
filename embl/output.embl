@@ -1,13 +1,495 @@
-ID    HG315671; linear;
-AC    HG315671;
-PR    Project: PRJEB3965;;
-DT    31-AUG-2013 (Rel. 118, Created) 22-JUN-2015 (Rel. 125, Last updated, Version 5) ;
-DE    Formosa agariphila KMM 3901, complete genome;
-KW    complete genome.;
-OS    Formosa agariphila KMM 3901;
-OC    Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Formosa.;
+ID   HG315671; SV 1; circular; genomic DNA; STD; PRO; 4228350 BP.
 XX
-//
-OS    Formosa agariphila KMM 3901;
+AC   HG315671;
 XX
-//
+PR   Project:PRJEB3965;;
+XX
+DT   31-AUG-2013 (Rel.
+DT   118, Created)
+XX
+DE   Formosa agariphila KMM 3901, complete genome
+XX
+KW   complete genome.
+XX
+OS   None
+OC   Bacteria;
+OC    Bacteroidetes;
+OC    Flavobacteriia;
+OC    Flavobacteriales;
+OC   Flavobacteriaceae;
+OC    Formosa.
+XX
+RN   [1]
+RP   1-4228350
+RA   Werner J.;
+RT   ;
+RL   Submitted (30-MAY-2013) to the INSDC.
+RL   Microbial Genomics Group, Max Planck Institute for Marine Microbiology,
+RL   Celsiusstrasse 1, Bremen, 28359, GERMANY.
+XX
+RN   [2]
+RP   
+RA   Werner J.;
+RT   ;
+RL   Submitted (30-MAY-2013) to the INSDC.
+RL   Microbial Genomics Group, Max Planck Institute for Marine Microbiology,
+RL   Celsiusstrasse 1, Bremen, 28359, GERMANY.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="source"
+FT                   /mol_type="source"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /organism="Formosa          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/organism="Formosa"
+FT                   /mol_type="/organism="Formosa"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /strain="type          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/strain="type"
+FT                   /mol_type="/strain="type"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /mol_type="genomic          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/mol_type="genomic"
+FT                   /mol_type="/mol_type="genomic"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="taxon:1347342"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="taxon:1347342""
+FT                   /mol_type="/db_xref="taxon:1347342""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /culture_collection="KMM:3901"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/culture_collection="KMM:3901""
+FT                   /mol_type="/culture_collection="KMM:3901""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   CDS          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="CDS"
+FT                   /mol_type="CDS"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /codon_start=1          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/codon_start=1"
+FT                   /mol_type="/codon_start=1"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /transl_table=11          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/transl_table=11"
+FT                   /mol_type="/transl_table=11"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /locus_tag="BN863_10"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/locus_tag="BN863_10""
+FT                   /mol_type="/locus_tag="BN863_10""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /product="lipoprotein          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/product="lipoprotein"
+FT                   /mol_type="/product="lipoprotein"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   protein          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="protein"
+FT                   /mol_type="protein"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Gn:BN863_10"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Gn:BN863_10""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Gn:BN863_10""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Tr:CDF77713"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Tr:CDF77713""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Tr:CDF77713""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="GOA:T2KH40"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="GOA:T2KH40""
+FT                   /mol_type="/db_xref="GOA:T2KH40""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="UniProtKB/TrEMBL:T2KH40"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="UniProtKB/TrEMBL:T2KH40""
+FT                   /mol_type="/db_xref="UniProtKB/TrEMBL:T2KH40""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /protein_id="CDF77713.1"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/protein_id="CDF77713.1""
+FT                   /mol_type="/protein_id="CDF77713.1""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /translation="MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/translation="MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG"
+FT                   /mol_type="/translation="MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA"
+FT                   /mol_type="FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK"
+FT                   /mol_type="YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN"
+FT                   /mol_type="SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL"
+FT                   /mol_type="QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL"
+FT                   /mol_type="VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK"
+FT                   /mol_type="GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   TI"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="TI""
+FT                   /mol_type="TI""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   CDS          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="CDS"
+FT                   /mol_type="CDS"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /codon_start=1          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/codon_start=1"
+FT                   /mol_type="/codon_start=1"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /transl_table=11          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/transl_table=11"
+FT                   /mol_type="/transl_table=11"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /locus_tag="BN863_20"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/locus_tag="BN863_20""
+FT                   /mol_type="/locus_tag="BN863_20""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /product="ribosome-binding          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/product="ribosome-binding"
+FT                   /mol_type="/product="ribosome-binding"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Gn:BN863_20"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Gn:BN863_20""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Gn:BN863_20""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Tr:CDF77714"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Tr:CDF77714""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Tr:CDF77714""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="GOA:T2KIB0"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="GOA:T2KIB0""
+FT                   /mol_type="/db_xref="GOA:T2KIB0""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR000238"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR000238""
+FT                   /mol_type="/db_xref="InterPro:IPR000238""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR015946"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR015946""
+FT                   /mol_type="/db_xref="InterPro:IPR015946""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR023799"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR023799""
+FT                   /mol_type="/db_xref="InterPro:IPR023799""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="UniProtKB/TrEMBL:T2KIB0"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="UniProtKB/TrEMBL:T2KIB0""
+FT                   /mol_type="/db_xref="UniProtKB/TrEMBL:T2KIB0""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /protein_id="CDF77714.1"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/protein_id="CDF77714.1""
+FT                   /mol_type="/protein_id="CDF77714.1""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /translation="MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/translation="MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD"
+FT                   /mol_type="/translation="MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI"
+FT                   /mol_type="LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   DQIEKSLKGEDDPINNPDLLGKHKKS"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="DQIEKSLKGEDDPINNPDLLGKHKKS""
+FT                   /mol_type="DQIEKSLKGEDDPINNPDLLGKHKKS""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   tRNA          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="tRNA"
+FT                   /mol_type="tRNA"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /product="tRNA-Met-CAT"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/product="tRNA-Met-CAT""
+FT                   /mol_type="/product="tRNA-Met-CAT""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   CDS          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="CDS"
+FT                   /mol_type="CDS"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /codon_start=1          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/codon_start=1"
+FT                   /mol_type="/codon_start=1"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /transl_table=11          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/transl_table=11"
+FT                   /mol_type="/transl_table=11"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /locus_tag="BN863_30"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/locus_tag="BN863_30""
+FT                   /mol_type="/locus_tag="BN863_30""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /product="conserved          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/product="conserved"
+FT                   /mol_type="/product="conserved"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Gn:BN863_30"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Gn:BN863_30""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Gn:BN863_30""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Tr:CDF77715"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Tr:CDF77715""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Tr:CDF77715""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR032577"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR032577""
+FT                   /mol_type="/db_xref="InterPro:IPR032577""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="UniProtKB/TrEMBL:T2KG84"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="UniProtKB/TrEMBL:T2KG84""
+FT                   /mol_type="/db_xref="UniProtKB/TrEMBL:T2KG84""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /protein_id="CDF77715.1"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/protein_id="CDF77715.1""
+FT                   /mol_type="/protein_id="CDF77715.1""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /translation="MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/translation="MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI"
+FT                   /mol_type="/translation="MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD"
+FT                   /mol_type="NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG"
+FT                   /mol_type="YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   VLLIQ"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="VLLIQ""
+FT                   /mol_type="VLLIQ""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   CDS          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="CDS"
+FT                   /mol_type="CDS"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /codon_start=1          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/codon_start=1"
+FT                   /mol_type="/codon_start=1"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /transl_table=11          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/transl_table=11"
+FT                   /mol_type="/transl_table=11"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /locus_tag="BN863_40"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/locus_tag="BN863_40""
+FT                   /mol_type="/locus_tag="BN863_40""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /product="oxidoreductase          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/product="oxidoreductase"
+FT                   /mol_type="/product="oxidoreductase"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   subgroup          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="subgroup"
+FT                   /mol_type="subgroup"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Gn:BN863_40"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Gn:BN863_40""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Gn:BN863_40""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="EnsemblGenomes-Tr:CDF77716"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="EnsemblGenomes-Tr:CDF77716""
+FT                   /mol_type="/db_xref="EnsemblGenomes-Tr:CDF77716""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="GOA:T2KH37"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="GOA:T2KH37""
+FT                   /mol_type="/db_xref="GOA:T2KH37""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR018170"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR018170""
+FT                   /mol_type="/db_xref="InterPro:IPR018170""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR020471"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR020471""
+FT                   /mol_type="/db_xref="InterPro:IPR020471""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR023210"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR023210""
+FT                   /mol_type="/db_xref="InterPro:IPR023210""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="InterPro:IPR036812"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="InterPro:IPR036812""
+FT                   /mol_type="/db_xref="InterPro:IPR036812""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /db_xref="UniProtKB/TrEMBL:T2KH37"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/db_xref="UniProtKB/TrEMBL:T2KH37""
+FT                   /mol_type="/db_xref="UniProtKB/TrEMBL:T2KH37""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /protein_id="CDF77716.1"          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/protein_id="CDF77716.1""
+FT                   /mol_type="/protein_id="CDF77716.1""
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   /translation="MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="/translation="MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA"
+FT                   /mol_type="/translation="MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL"
+FT                   /mol_type="AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV"
+FT                   /mol_type="IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"
+FT   NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR          1..4228350
+FT                   /organism="Formosa agariphila KMM 3901"
+FT                   /strain="NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR"
+FT                   /mol_type="NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR"
+FT                   /db_xref="taxon:1347342"
+FT                   /culture_collection="KMM:3901"

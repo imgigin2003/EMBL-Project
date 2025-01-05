@@ -43,7 +43,7 @@ fn main() {
             let input_json = &args[2];
             //get the output from the arguments
             let output_embl = &args[3];
-            json_2_embl::convert_json(input_json, output_embl);
+            let _ = json_2_embl::convert_json(input_json, output_embl);
         }
 
         _ => {

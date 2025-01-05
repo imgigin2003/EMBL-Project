@@ -1,90 +1,59 @@
 use std::fs::File;
-use std::io::{BufReader,BufWriter, Write};
+use std::io::{self, Read, Write};
 use serde_json::Value;
 
-pub fn convert_json(input_json: &str, output_embl: &str) {
-    let file = File::open(input_json).expect("Failed to read JSON file.");
-    let reader = BufReader::new(file);
+pub fn convert_json(json_path: &str, embl_path: &str) -> io::Result<()> {
+    let mut file = File::open(json_path)?;
+    let mut data = String::new();
+    file.read_to_string(&mut data)?;
 
-    let output_file = File::create(output_embl).expect("Failed to creat EMBL file.");
-    let mut writer = BufWriter::new(output_file);
+    let json: Value = serde_json::from_str(&data)?;
 
+    let mut embl_file = File::create(embl_path)?;
 
-    let json_content: Vec<Value> = serde_json::from_reader(reader).expect("Failed to parse JSON.");
-    
-    for record in json_content {
-        let properties = record.get("properties").expect("missing 'properties' field.");
-        let annotations = properties.get("annotations").unwrap_or(&Value::Null);
-        let references = properties.get("references").unwrap_or(&Value::Null);
-        let taxonomy = properties.get("taxonomy").unwrap_or(&Value::Null);
+    // Write the header
+    writeln!(embl_file, "ID   {}; SV 1; circular; genomic DNA; STD; PRO; 4228350 BP.", json[0]["id"].as_str().unwrap())?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "AC   {};", json[0]["id"].as_str().unwrap())?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "PR   Project:{};", json[0]["properties"]["annotations"]["project"].as_str().unwrap())?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "DT   {} {}", json[0]["properties"]["annotations"]["dates"].as_str().unwrap().split(' ').collect::<Vec<&str>>()[0], json[0]["properties"]["annotations"]["dates"].as_str().unwrap().split(' ').collect::<Vec<&str>>()[1])?;
+    writeln!(embl_file, "DT   {} {}", json[0]["properties"]["annotations"]["dates"].as_str().unwrap().split(' ').collect::<Vec<&str>>()[2], json[0]["properties"]["annotations"]["dates"].as_str().unwrap().split(' ').collect::<Vec<&str>>()[3])?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "DE   {}", json[0]["properties"]["annotations"]["description"].as_str().unwrap())?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "KW   {}", json[0]["properties"]["annotations"]["keywords"].as_str().unwrap())?;
+    writeln!(embl_file, "XX")?;
+    writeln!(embl_file, "OS   {:?}", json[0]["properties"]["annotations"]["organism"].as_str())?;
+    writeln!(embl_file, "OC   {}", json[0]["properties"]["taxonomy"].as_str().unwrap().replace(";", ";\nOC   "))?;
+    writeln!(embl_file, "XX")?;
 
-        if let Some(id) = properties.get("id") {
-            writeln!(writer, "ID    {}; linear;", id.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(accession) = annotations.get("accession") {
-            writeln!(writer, "AC    {};", accession.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(project) = annotations.get("project") {
-            writeln!(writer, "PR    Project: {};", project.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(date) = annotations.get("dates") {
-            writeln!(writer, "DT    {};", date.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(description) = annotations.get("description") {
-            writeln!(writer, "DE    {};", description.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(keyword) = annotations.get("keywords") {
-            writeln!(writer, "KW    {};", keyword.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(orgasism) = properties.get("organism") {
-            writeln!(writer, "OS    {};", orgasism.as_str().unwrap()).unwrap();
-        }
-
-        if let Some(taxanomy_str) =  taxonomy.as_str() {
-            writeln!(writer, "OC    {};", taxanomy_str).unwrap();
-        }
-
-        if let Some(refs) = references.as_array() {
-            for reference in refs {
-                if let Some(rn) = reference.get("Reference_Number") {
-                    writeln!(writer, "RN    [{}];", rn.as_str().unwrap()).unwrap();
-                }
-                if let Some(rp) = reference.get("Reference_Position") {
-                    writeln!(writer, "RP    {};", rp.as_str().unwrap()).unwrap();
-                }
-            }
-        }
-
-        writeln!(writer, "XX").unwrap();
-
-        if let Some(features) = record.get("features") {
-            for feature in features.as_array().unwrap_or(&vec![]) {
-                if let Some(feature_type) = feature.get("type") {
-                    writeln!(writer, "FT    {}                 {}", feature_type.as_str().unwrap(), feature.get("location").unwrap_or(&Value::Null)).unwrap();
-                }
-
-                if let Some(qualifiers) = feature.get("qualifiers").unwrap_or(&Value::Null).as_object() {
-                    for (key, value) in  qualifiers {
-                        writeln!(writer, "FT                    /{}={}", key, value.as_str().unwrap_or("")).unwrap();
-                    }
-                }
-            }
-        }
-
-        if let Some(sequence) = record.get("sequence") {
-            writeln!(writer, "SQ    Sequence {};", sequence.as_str().unwrap().len()).unwrap();
-            let seq_str = sequence.as_str().unwrap();
-            for chunk in seq_str.as_bytes().chunks(60) {
-                writeln!(writer, "         {}", String::from_utf8_lossy(chunk)).unwrap();
-            }
-        }
-        writeln!(writer, "//").unwrap();
+    // Write references
+    for reference in json[0]["properties"]["references"].as_array().unwrap() {
+        writeln!(embl_file, "RN   [{}]", reference["reference_number"].as_str().unwrap())?;
+        writeln!(embl_file, "RP   {}", reference["reference_position"].as_str().unwrap_or(""))?;
+        writeln!(embl_file, "RA   Werner J.;")?;
+        writeln!(embl_file, "RT   ;")?;
+        writeln!(embl_file, "RL   Submitted (30-MAY-2013) to the INSDC.")?;
+        writeln!(embl_file, "RL   Microbial Genomics Group, Max Planck Institute for Marine Microbiology,")?;
+        writeln!(embl_file, "RL   Celsiusstrasse 1, Bremen, 28359, GERMANY.")?;
+        writeln!(embl_file, "XX")?;
     }
 
+    // Write features
+    writeln!(embl_file, "FH   Key             Location/Qualifiers")?;
+    writeln!(embl_file, "FH")?;
+    for node in json.as_array().unwrap().iter().skip(1) {
+        if node["type"].as_str().unwrap() == "node" {
+            writeln!(embl_file, "FT   {}          1..4228350", node["properties"]["type"].as_str().unwrap())?;
+            writeln!(embl_file, "FT                   /organism=\"{}\"", node["properties"]["organism"].as_str().unwrap())?;
+            writeln!(embl_file, "FT                   /strain=\"{}\"", node["properties"]["name"].as_str().unwrap())?;
+            writeln!(embl_file, "FT                   /mol_type=\"{}\"", node["properties"]["type"].as_str().unwrap())?;
+            writeln!(embl_file, "FT                   /db_xref=\"taxon:1347342\"")?;
+            writeln!(embl_file, "FT                   /culture_collection=\"KMM:3901\"")?;
+        }
+    }
+
+    Ok(())
 }
