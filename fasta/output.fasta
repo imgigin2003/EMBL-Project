@@ -1,0 +1,306 @@
+>HG315671 | id=HG315671 | name=Formosa agariphila KMM 3901 | organism=Formosa agariphila KMM 3901 | taxonomy=Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Formosa.
+UNKNOWN
+>HG315671_0 | id=HG315671_0 | name=source | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+source
+>HG315671_r_0 | id=HG315671_r_0 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_1 | id=HG315671_1 | name=/organism="Formosa | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/organism="Formosa
+>HG315671_r_1 | id=HG315671_r_1 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_2 | id=HG315671_2 | name=/strain="type | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/strain="type
+>HG315671_r_2 | id=HG315671_r_2 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_3 | id=HG315671_3 | name=/mol_type="genomic | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/mol_type="genomic
+>HG315671_r_3 | id=HG315671_r_3 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_4 | id=HG315671_4 | name=/db_xref="taxon:1347342" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="taxon:1347342"
+>HG315671_r_4 | id=HG315671_r_4 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_5 | id=HG315671_5 | name=/culture_collection="KMM:3901" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/culture_collection="KMM:3901"
+>HG315671_r_5 | id=HG315671_r_5 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_6 | id=HG315671_6 | name=CDS | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+CDS
+>HG315671_r_6 | id=HG315671_r_6 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_7 | id=HG315671_7 | name=/codon_start=1 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/codon_start=1
+>HG315671_r_7 | id=HG315671_r_7 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_8 | id=HG315671_8 | name=/transl_table=11 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/transl_table=11
+>HG315671_r_8 | id=HG315671_r_8 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_9 | id=HG315671_9 | name=/locus_tag="BN863_10" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/locus_tag="BN863_10"
+>HG315671_r_9 | id=HG315671_r_9 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_10 | id=HG315671_10 | name=/product="lipoprotein | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/product="lipoprotein
+>HG315671_r_10 | id=HG315671_r_10 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_11 | id=HG315671_11 | name=protein | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+protein
+>HG315671_r_11 | id=HG315671_r_11 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_12 | id=HG315671_12 | name=/db_xref="EnsemblGenomes-Gn:BN863_10" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Gn:BN863_10"
+>HG315671_r_12 | id=HG315671_r_12 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_13 | id=HG315671_13 | name=/db_xref="EnsemblGenomes-Tr:CDF77713" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Tr:CDF77713"
+>HG315671_r_13 | id=HG315671_r_13 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_14 | id=HG315671_14 | name=/db_xref="GOA:T2KH40" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="GOA:T2KH40"
+>HG315671_r_14 | id=HG315671_r_14 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_15 | id=HG315671_15 | name=/db_xref="UniProtKB/TrEMBL:T2KH40" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="UniProtKB/TrEMBL:T2KH40"
+>HG315671_r_15 | id=HG315671_r_15 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_16 | id=HG315671_16 | name=/protein_id="CDF77713.1" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/protein_id="CDF77713.1"
+>HG315671_r_16 | id=HG315671_r_16 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_17 | id=HG315671_17 | name=/translation="MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/translation="MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG
+>HG315671_r_17 | id=HG315671_r_17 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_18 | id=HG315671_18 | name=FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA
+>HG315671_r_18 | id=HG315671_r_18 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_19 | id=HG315671_19 | name=YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK
+>HG315671_r_19 | id=HG315671_r_19 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_20 | id=HG315671_20 | name=SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN
+>HG315671_r_20 | id=HG315671_r_20 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_21 | id=HG315671_21 | name=QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL
+>HG315671_r_21 | id=HG315671_r_21 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_22 | id=HG315671_22 | name=VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL
+>HG315671_r_22 | id=HG315671_r_22 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_23 | id=HG315671_23 | name=GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK
+>HG315671_r_23 | id=HG315671_r_23 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_24 | id=HG315671_24 | name=TI" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+TI"
+>HG315671_r_24 | id=HG315671_r_24 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_25 | id=HG315671_25 | name=CDS | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+CDS
+>HG315671_r_25 | id=HG315671_r_25 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_26 | id=HG315671_26 | name=/codon_start=1 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/codon_start=1
+>HG315671_r_26 | id=HG315671_r_26 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_27 | id=HG315671_27 | name=/transl_table=11 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/transl_table=11
+>HG315671_r_27 | id=HG315671_r_27 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_28 | id=HG315671_28 | name=/locus_tag="BN863_20" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/locus_tag="BN863_20"
+>HG315671_r_28 | id=HG315671_r_28 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_29 | id=HG315671_29 | name=/product="ribosome-binding | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/product="ribosome-binding
+>HG315671_r_29 | id=HG315671_r_29 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_30 | id=HG315671_30 | name=/db_xref="EnsemblGenomes-Gn:BN863_20" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Gn:BN863_20"
+>HG315671_r_30 | id=HG315671_r_30 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_31 | id=HG315671_31 | name=/db_xref="EnsemblGenomes-Tr:CDF77714" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Tr:CDF77714"
+>HG315671_r_31 | id=HG315671_r_31 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_32 | id=HG315671_32 | name=/db_xref="GOA:T2KIB0" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="GOA:T2KIB0"
+>HG315671_r_32 | id=HG315671_r_32 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_33 | id=HG315671_33 | name=/db_xref="InterPro:IPR000238" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR000238"
+>HG315671_r_33 | id=HG315671_r_33 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_34 | id=HG315671_34 | name=/db_xref="InterPro:IPR015946" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR015946"
+>HG315671_r_34 | id=HG315671_r_34 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_35 | id=HG315671_35 | name=/db_xref="InterPro:IPR023799" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR023799"
+>HG315671_r_35 | id=HG315671_r_35 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_36 | id=HG315671_36 | name=/db_xref="UniProtKB/TrEMBL:T2KIB0" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="UniProtKB/TrEMBL:T2KIB0"
+>HG315671_r_36 | id=HG315671_r_36 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_37 | id=HG315671_37 | name=/protein_id="CDF77714.1" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/protein_id="CDF77714.1"
+>HG315671_r_37 | id=HG315671_r_37 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_38 | id=HG315671_38 | name=/translation="MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/translation="MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD
+>HG315671_r_38 | id=HG315671_r_38 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_39 | id=HG315671_39 | name=LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI
+>HG315671_r_39 | id=HG315671_r_39 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_40 | id=HG315671_40 | name=DQIEKSLKGEDDPINNPDLLGKHKKS" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+DQIEKSLKGEDDPINNPDLLGKHKKS"
+>HG315671_r_40 | id=HG315671_r_40 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_41 | id=HG315671_41 | name=tRNA | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+tRNA
+>HG315671_r_41 | id=HG315671_r_41 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_42 | id=HG315671_42 | name=/product="tRNA-Met-CAT" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/product="tRNA-Met-CAT"
+>HG315671_r_42 | id=HG315671_r_42 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_43 | id=HG315671_43 | name=CDS | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+CDS
+>HG315671_r_43 | id=HG315671_r_43 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_44 | id=HG315671_44 | name=/codon_start=1 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/codon_start=1
+>HG315671_r_44 | id=HG315671_r_44 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_45 | id=HG315671_45 | name=/transl_table=11 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/transl_table=11
+>HG315671_r_45 | id=HG315671_r_45 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_46 | id=HG315671_46 | name=/locus_tag="BN863_30" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/locus_tag="BN863_30"
+>HG315671_r_46 | id=HG315671_r_46 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_47 | id=HG315671_47 | name=/product="conserved | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/product="conserved
+>HG315671_r_47 | id=HG315671_r_47 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_48 | id=HG315671_48 | name=/db_xref="EnsemblGenomes-Gn:BN863_30" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Gn:BN863_30"
+>HG315671_r_48 | id=HG315671_r_48 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_49 | id=HG315671_49 | name=/db_xref="EnsemblGenomes-Tr:CDF77715" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Tr:CDF77715"
+>HG315671_r_49 | id=HG315671_r_49 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_50 | id=HG315671_50 | name=/db_xref="InterPro:IPR032577" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR032577"
+>HG315671_r_50 | id=HG315671_r_50 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_51 | id=HG315671_51 | name=/db_xref="UniProtKB/TrEMBL:T2KG84" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="UniProtKB/TrEMBL:T2KG84"
+>HG315671_r_51 | id=HG315671_r_51 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_52 | id=HG315671_52 | name=/protein_id="CDF77715.1" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/protein_id="CDF77715.1"
+>HG315671_r_52 | id=HG315671_r_52 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_53 | id=HG315671_53 | name=/translation="MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/translation="MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI
+>HG315671_r_53 | id=HG315671_r_53 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_54 | id=HG315671_54 | name=NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD
+>HG315671_r_54 | id=HG315671_r_54 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_55 | id=HG315671_55 | name=YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG
+>HG315671_r_55 | id=HG315671_r_55 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_56 | id=HG315671_56 | name=VLLIQ" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+VLLIQ"
+>HG315671_r_56 | id=HG315671_r_56 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_57 | id=HG315671_57 | name=CDS | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+CDS
+>HG315671_r_57 | id=HG315671_r_57 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_58 | id=HG315671_58 | name=/codon_start=1 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/codon_start=1
+>HG315671_r_58 | id=HG315671_r_58 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_59 | id=HG315671_59 | name=/transl_table=11 | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/transl_table=11
+>HG315671_r_59 | id=HG315671_r_59 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_60 | id=HG315671_60 | name=/locus_tag="BN863_40" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/locus_tag="BN863_40"
+>HG315671_r_60 | id=HG315671_r_60 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_61 | id=HG315671_61 | name=/product="oxidoreductase | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/product="oxidoreductase
+>HG315671_r_61 | id=HG315671_r_61 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_62 | id=HG315671_62 | name=subgroup | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+subgroup
+>HG315671_r_62 | id=HG315671_r_62 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_63 | id=HG315671_63 | name=/db_xref="EnsemblGenomes-Gn:BN863_40" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Gn:BN863_40"
+>HG315671_r_63 | id=HG315671_r_63 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_64 | id=HG315671_64 | name=/db_xref="EnsemblGenomes-Tr:CDF77716" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="EnsemblGenomes-Tr:CDF77716"
+>HG315671_r_64 | id=HG315671_r_64 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_65 | id=HG315671_65 | name=/db_xref="GOA:T2KH37" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="GOA:T2KH37"
+>HG315671_r_65 | id=HG315671_r_65 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_66 | id=HG315671_66 | name=/db_xref="InterPro:IPR018170" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR018170"
+>HG315671_r_66 | id=HG315671_r_66 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_67 | id=HG315671_67 | name=/db_xref="InterPro:IPR020471" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR020471"
+>HG315671_r_67 | id=HG315671_r_67 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_68 | id=HG315671_68 | name=/db_xref="InterPro:IPR023210" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR023210"
+>HG315671_r_68 | id=HG315671_r_68 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_69 | id=HG315671_69 | name=/db_xref="InterPro:IPR036812" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="InterPro:IPR036812"
+>HG315671_r_69 | id=HG315671_r_69 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_70 | id=HG315671_70 | name=/db_xref="UniProtKB/TrEMBL:T2KH37" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/db_xref="UniProtKB/TrEMBL:T2KH37"
+>HG315671_r_70 | id=HG315671_r_70 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_71 | id=HG315671_71 | name=/protein_id="CDF77716.1" | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/protein_id="CDF77716.1"
+>HG315671_r_71 | id=HG315671_r_71 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_72 | id=HG315671_72 | name=/translation="MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+/translation="MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA
+>HG315671_r_72 | id=HG315671_r_72 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_73 | id=HG315671_73 | name=AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL
+>HG315671_r_73 | id=HG315671_r_73 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_74 | id=HG315671_74 | name=IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV
+>HG315671_r_74 | id=HG315671_r_74 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN
+>HG315671_75 | id=HG315671_75 | name=NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR | organism=Formosa agariphila KMM 3901 | taxonomy=UNKNOWN
+NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR
+>HG315671_r_75 | id=HG315671_r_75 | name=UNKNOWN | organism=UNKNOWN | taxonomy=UNKNOWN
+UNKNOWN

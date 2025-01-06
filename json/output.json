@@ -1,9 +1,7 @@
 [
   {
     "id": "HG315671",
-    "labels": [
-      "Contig"
-    ],
+    "labels": ["Contig"],
     "properties": {
       "annotations": {
         "accession": "HG315671",
@@ -30,9 +28,7 @@
   },
   {
     "id": "HG315671_0",
-    "labels": [
-      "Lead"
-    ],
+    "labels": ["Lead"],
     "properties": {
       "name": "source",
       "organism": "Formosa agariphila KMM 3901",
@@ -43,25 +39,19 @@
   {
     "end": {
       "id": "HG315671_0",
-      "labels": [
-        "Lead"
-      ]
+      "labels": ["Lead"]
     },
     "id": "HG315671_r_0",
     "label": "OWNS",
     "start": {
       "id": "HG315671",
-      "labels": [
-        "Contig"
-      ]
+      "labels": ["Contig"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_1",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/organism=\"Formosa",
       "organism": "Formosa agariphila KMM 3901",
@@ -72,25 +62,19 @@
   {
     "end": {
       "id": "HG315671_1",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_1",
     "label": "NEXT",
     "start": {
       "id": "HG315671_0",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_2",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/strain=\"type",
       "organism": "Formosa agariphila KMM 3901",
@@ -101,25 +85,19 @@
   {
     "end": {
       "id": "HG315671_2",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_2",
     "label": "NEXT",
     "start": {
       "id": "HG315671_1",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_3",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/mol_type=\"genomic",
       "organism": "Formosa agariphila KMM 3901",
@@ -130,25 +108,19 @@
   {
     "end": {
       "id": "HG315671_3",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_3",
     "label": "NEXT",
     "start": {
       "id": "HG315671_2",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_4",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"taxon:1347342\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -159,25 +131,19 @@
   {
     "end": {
       "id": "HG315671_4",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_4",
     "label": "NEXT",
     "start": {
       "id": "HG315671_3",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_5",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/culture_collection=\"KMM:3901\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -188,25 +154,19 @@
   {
     "end": {
       "id": "HG315671_5",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_5",
     "label": "NEXT",
     "start": {
       "id": "HG315671_4",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_6",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "CDS",
       "organism": "Formosa agariphila KMM 3901",
@@ -217,25 +177,19 @@
   {
     "end": {
       "id": "HG315671_6",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_6",
     "label": "NEXT",
     "start": {
       "id": "HG315671_5",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_7",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/codon_start=1",
       "organism": "Formosa agariphila KMM 3901",
@@ -246,25 +200,19 @@
   {
     "end": {
       "id": "HG315671_7",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_7",
     "label": "NEXT",
     "start": {
       "id": "HG315671_6",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_8",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/transl_table=11",
       "organism": "Formosa agariphila KMM 3901",
@@ -275,25 +223,19 @@
   {
     "end": {
       "id": "HG315671_8",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_8",
     "label": "NEXT",
     "start": {
       "id": "HG315671_7",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_9",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/locus_tag=\"BN863_10\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -304,25 +246,19 @@
   {
     "end": {
       "id": "HG315671_9",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_9",
     "label": "NEXT",
     "start": {
       "id": "HG315671_8",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_10",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/product=\"lipoprotein",
       "organism": "Formosa agariphila KMM 3901",
@@ -333,25 +269,19 @@
   {
     "end": {
       "id": "HG315671_10",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_10",
     "label": "NEXT",
     "start": {
       "id": "HG315671_9",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_11",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "protein",
       "organism": "Formosa agariphila KMM 3901",
@@ -362,25 +292,19 @@
   {
     "end": {
       "id": "HG315671_11",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_11",
     "label": "NEXT",
     "start": {
       "id": "HG315671_10",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_12",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Gn:BN863_10\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -391,25 +315,19 @@
   {
     "end": {
       "id": "HG315671_12",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_12",
     "label": "NEXT",
     "start": {
       "id": "HG315671_11",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_13",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Tr:CDF77713\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -420,25 +338,19 @@
   {
     "end": {
       "id": "HG315671_13",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_13",
     "label": "NEXT",
     "start": {
       "id": "HG315671_12",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_14",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"GOA:T2KH40\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -449,25 +361,19 @@
   {
     "end": {
       "id": "HG315671_14",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_14",
     "label": "NEXT",
     "start": {
       "id": "HG315671_13",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_15",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"UniProtKB/TrEMBL:T2KH40\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -478,25 +384,19 @@
   {
     "end": {
       "id": "HG315671_15",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_15",
     "label": "NEXT",
     "start": {
       "id": "HG315671_14",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_16",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/protein_id=\"CDF77713.1\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -507,25 +407,19 @@
   {
     "end": {
       "id": "HG315671_16",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_16",
     "label": "NEXT",
     "start": {
       "id": "HG315671_15",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_17",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/translation=\"MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG",
       "organism": "Formosa agariphila KMM 3901",
@@ -536,25 +430,19 @@
   {
     "end": {
       "id": "HG315671_17",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_17",
     "label": "NEXT",
     "start": {
       "id": "HG315671_16",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_18",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA",
       "organism": "Formosa agariphila KMM 3901",
@@ -565,25 +453,19 @@
   {
     "end": {
       "id": "HG315671_18",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_18",
     "label": "NEXT",
     "start": {
       "id": "HG315671_17",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_19",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK",
       "organism": "Formosa agariphila KMM 3901",
@@ -594,25 +476,19 @@
   {
     "end": {
       "id": "HG315671_19",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_19",
     "label": "NEXT",
     "start": {
       "id": "HG315671_18",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_20",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN",
       "organism": "Formosa agariphila KMM 3901",
@@ -623,25 +499,19 @@
   {
     "end": {
       "id": "HG315671_20",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_20",
     "label": "NEXT",
     "start": {
       "id": "HG315671_19",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_21",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL",
       "organism": "Formosa agariphila KMM 3901",
@@ -652,25 +522,19 @@
   {
     "end": {
       "id": "HG315671_21",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_21",
     "label": "NEXT",
     "start": {
       "id": "HG315671_20",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_22",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL",
       "organism": "Formosa agariphila KMM 3901",
@@ -681,25 +545,19 @@
   {
     "end": {
       "id": "HG315671_22",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_22",
     "label": "NEXT",
     "start": {
       "id": "HG315671_21",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_23",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK",
       "organism": "Formosa agariphila KMM 3901",
@@ -710,25 +568,19 @@
   {
     "end": {
       "id": "HG315671_23",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_23",
     "label": "NEXT",
     "start": {
       "id": "HG315671_22",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_24",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "TI\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -739,25 +591,19 @@
   {
     "end": {
       "id": "HG315671_24",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_24",
     "label": "NEXT",
     "start": {
       "id": "HG315671_23",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_25",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "CDS",
       "organism": "Formosa agariphila KMM 3901",
@@ -768,25 +614,19 @@
   {
     "end": {
       "id": "HG315671_25",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_25",
     "label": "NEXT",
     "start": {
       "id": "HG315671_24",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_26",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/codon_start=1",
       "organism": "Formosa agariphila KMM 3901",
@@ -797,25 +637,19 @@
   {
     "end": {
       "id": "HG315671_26",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_26",
     "label": "NEXT",
     "start": {
       "id": "HG315671_25",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_27",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/transl_table=11",
       "organism": "Formosa agariphila KMM 3901",
@@ -826,25 +660,19 @@
   {
     "end": {
       "id": "HG315671_27",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_27",
     "label": "NEXT",
     "start": {
       "id": "HG315671_26",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_28",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/locus_tag=\"BN863_20\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -855,25 +683,19 @@
   {
     "end": {
       "id": "HG315671_28",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_28",
     "label": "NEXT",
     "start": {
       "id": "HG315671_27",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_29",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/product=\"ribosome-binding",
       "organism": "Formosa agariphila KMM 3901",
@@ -884,25 +706,19 @@
   {
     "end": {
       "id": "HG315671_29",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_29",
     "label": "NEXT",
     "start": {
       "id": "HG315671_28",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_30",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Gn:BN863_20\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -913,25 +729,19 @@
   {
     "end": {
       "id": "HG315671_30",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_30",
     "label": "NEXT",
     "start": {
       "id": "HG315671_29",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_31",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Tr:CDF77714\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -942,25 +752,19 @@
   {
     "end": {
       "id": "HG315671_31",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_31",
     "label": "NEXT",
     "start": {
       "id": "HG315671_30",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_32",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"GOA:T2KIB0\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -971,25 +775,19 @@
   {
     "end": {
       "id": "HG315671_32",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_32",
     "label": "NEXT",
     "start": {
       "id": "HG315671_31",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_33",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR000238\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1000,25 +798,19 @@
   {
     "end": {
       "id": "HG315671_33",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_33",
     "label": "NEXT",
     "start": {
       "id": "HG315671_32",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_34",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR015946\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1029,25 +821,19 @@
   {
     "end": {
       "id": "HG315671_34",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_34",
     "label": "NEXT",
     "start": {
       "id": "HG315671_33",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_35",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR023799\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1058,25 +844,19 @@
   {
     "end": {
       "id": "HG315671_35",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_35",
     "label": "NEXT",
     "start": {
       "id": "HG315671_34",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_36",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"UniProtKB/TrEMBL:T2KIB0\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1087,25 +867,19 @@
   {
     "end": {
       "id": "HG315671_36",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_36",
     "label": "NEXT",
     "start": {
       "id": "HG315671_35",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_37",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/protein_id=\"CDF77714.1\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1116,25 +890,19 @@
   {
     "end": {
       "id": "HG315671_37",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_37",
     "label": "NEXT",
     "start": {
       "id": "HG315671_36",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_38",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/translation=\"MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD",
       "organism": "Formosa agariphila KMM 3901",
@@ -1145,25 +913,19 @@
   {
     "end": {
       "id": "HG315671_38",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_38",
     "label": "NEXT",
     "start": {
       "id": "HG315671_37",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_39",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI",
       "organism": "Formosa agariphila KMM 3901",
@@ -1174,25 +936,19 @@
   {
     "end": {
       "id": "HG315671_39",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_39",
     "label": "NEXT",
     "start": {
       "id": "HG315671_38",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_40",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "DQIEKSLKGEDDPINNPDLLGKHKKS\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1203,25 +959,19 @@
   {
     "end": {
       "id": "HG315671_40",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_40",
     "label": "NEXT",
     "start": {
       "id": "HG315671_39",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_41",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "tRNA",
       "organism": "Formosa agariphila KMM 3901",
@@ -1232,25 +982,19 @@
   {
     "end": {
       "id": "HG315671_41",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_41",
     "label": "NEXT",
     "start": {
       "id": "HG315671_40",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_42",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/product=\"tRNA-Met-CAT\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1261,25 +1005,19 @@
   {
     "end": {
       "id": "HG315671_42",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_42",
     "label": "NEXT",
     "start": {
       "id": "HG315671_41",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_43",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "CDS",
       "organism": "Formosa agariphila KMM 3901",
@@ -1290,25 +1028,19 @@
   {
     "end": {
       "id": "HG315671_43",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_43",
     "label": "NEXT",
     "start": {
       "id": "HG315671_42",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_44",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/codon_start=1",
       "organism": "Formosa agariphila KMM 3901",
@@ -1319,25 +1051,19 @@
   {
     "end": {
       "id": "HG315671_44",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_44",
     "label": "NEXT",
     "start": {
       "id": "HG315671_43",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_45",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/transl_table=11",
       "organism": "Formosa agariphila KMM 3901",
@@ -1348,25 +1074,19 @@
   {
     "end": {
       "id": "HG315671_45",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_45",
     "label": "NEXT",
     "start": {
       "id": "HG315671_44",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_46",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/locus_tag=\"BN863_30\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1377,25 +1097,19 @@
   {
     "end": {
       "id": "HG315671_46",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_46",
     "label": "NEXT",
     "start": {
       "id": "HG315671_45",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_47",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/product=\"conserved",
       "organism": "Formosa agariphila KMM 3901",
@@ -1406,25 +1120,19 @@
   {
     "end": {
       "id": "HG315671_47",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_47",
     "label": "NEXT",
     "start": {
       "id": "HG315671_46",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_48",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Gn:BN863_30\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1435,25 +1143,19 @@
   {
     "end": {
       "id": "HG315671_48",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_48",
     "label": "NEXT",
     "start": {
       "id": "HG315671_47",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_49",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Tr:CDF77715\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1464,25 +1166,19 @@
   {
     "end": {
       "id": "HG315671_49",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_49",
     "label": "NEXT",
     "start": {
       "id": "HG315671_48",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_50",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR032577\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1493,25 +1189,19 @@
   {
     "end": {
       "id": "HG315671_50",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_50",
     "label": "NEXT",
     "start": {
       "id": "HG315671_49",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_51",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"UniProtKB/TrEMBL:T2KG84\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1522,25 +1212,19 @@
   {
     "end": {
       "id": "HG315671_51",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_51",
     "label": "NEXT",
     "start": {
       "id": "HG315671_50",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_52",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/protein_id=\"CDF77715.1\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1551,25 +1235,19 @@
   {
     "end": {
       "id": "HG315671_52",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_52",
     "label": "NEXT",
     "start": {
       "id": "HG315671_51",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_53",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/translation=\"MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI",
       "organism": "Formosa agariphila KMM 3901",
@@ -1580,25 +1258,19 @@
   {
     "end": {
       "id": "HG315671_53",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_53",
     "label": "NEXT",
     "start": {
       "id": "HG315671_52",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_54",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD",
       "organism": "Formosa agariphila KMM 3901",
@@ -1609,25 +1281,19 @@
   {
     "end": {
       "id": "HG315671_54",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_54",
     "label": "NEXT",
     "start": {
       "id": "HG315671_53",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_55",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG",
       "organism": "Formosa agariphila KMM 3901",
@@ -1638,25 +1304,19 @@
   {
     "end": {
       "id": "HG315671_55",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_55",
     "label": "NEXT",
     "start": {
       "id": "HG315671_54",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_56",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "VLLIQ\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1667,25 +1327,19 @@
   {
     "end": {
       "id": "HG315671_56",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_56",
     "label": "NEXT",
     "start": {
       "id": "HG315671_55",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_57",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "CDS",
       "organism": "Formosa agariphila KMM 3901",
@@ -1696,25 +1350,19 @@
   {
     "end": {
       "id": "HG315671_57",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_57",
     "label": "NEXT",
     "start": {
       "id": "HG315671_56",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_58",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/codon_start=1",
       "organism": "Formosa agariphila KMM 3901",
@@ -1725,25 +1373,19 @@
   {
     "end": {
       "id": "HG315671_58",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_58",
     "label": "NEXT",
     "start": {
       "id": "HG315671_57",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_59",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/transl_table=11",
       "organism": "Formosa agariphila KMM 3901",
@@ -1754,25 +1396,19 @@
   {
     "end": {
       "id": "HG315671_59",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_59",
     "label": "NEXT",
     "start": {
       "id": "HG315671_58",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_60",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/locus_tag=\"BN863_40\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1783,25 +1419,19 @@
   {
     "end": {
       "id": "HG315671_60",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_60",
     "label": "NEXT",
     "start": {
       "id": "HG315671_59",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_61",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/product=\"oxidoreductase",
       "organism": "Formosa agariphila KMM 3901",
@@ -1812,25 +1442,19 @@
   {
     "end": {
       "id": "HG315671_61",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_61",
     "label": "NEXT",
     "start": {
       "id": "HG315671_60",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_62",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "subgroup",
       "organism": "Formosa agariphila KMM 3901",
@@ -1841,25 +1465,19 @@
   {
     "end": {
       "id": "HG315671_62",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_62",
     "label": "NEXT",
     "start": {
       "id": "HG315671_61",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_63",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Gn:BN863_40\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1870,25 +1488,19 @@
   {
     "end": {
       "id": "HG315671_63",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_63",
     "label": "NEXT",
     "start": {
       "id": "HG315671_62",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_64",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"EnsemblGenomes-Tr:CDF77716\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1899,25 +1511,19 @@
   {
     "end": {
       "id": "HG315671_64",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_64",
     "label": "NEXT",
     "start": {
       "id": "HG315671_63",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_65",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"GOA:T2KH37\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1928,25 +1534,19 @@
   {
     "end": {
       "id": "HG315671_65",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_65",
     "label": "NEXT",
     "start": {
       "id": "HG315671_64",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_66",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR018170\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1957,25 +1557,19 @@
   {
     "end": {
       "id": "HG315671_66",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_66",
     "label": "NEXT",
     "start": {
       "id": "HG315671_65",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_67",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR020471\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -1986,25 +1580,19 @@
   {
     "end": {
       "id": "HG315671_67",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_67",
     "label": "NEXT",
     "start": {
       "id": "HG315671_66",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_68",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR023210\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -2015,25 +1603,19 @@
   {
     "end": {
       "id": "HG315671_68",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_68",
     "label": "NEXT",
     "start": {
       "id": "HG315671_67",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_69",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"InterPro:IPR036812\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -2044,25 +1626,19 @@
   {
     "end": {
       "id": "HG315671_69",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_69",
     "label": "NEXT",
     "start": {
       "id": "HG315671_68",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_70",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/db_xref=\"UniProtKB/TrEMBL:T2KH37\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -2073,25 +1649,19 @@
   {
     "end": {
       "id": "HG315671_70",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_70",
     "label": "NEXT",
     "start": {
       "id": "HG315671_69",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_71",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/protein_id=\"CDF77716.1\"",
       "organism": "Formosa agariphila KMM 3901",
@@ -2102,25 +1672,19 @@
   {
     "end": {
       "id": "HG315671_71",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_71",
     "label": "NEXT",
     "start": {
       "id": "HG315671_70",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_72",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "/translation=\"MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA",
       "organism": "Formosa agariphila KMM 3901",
@@ -2131,25 +1695,19 @@
   {
     "end": {
       "id": "HG315671_72",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_72",
     "label": "NEXT",
     "start": {
       "id": "HG315671_71",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_73",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL",
       "organism": "Formosa agariphila KMM 3901",
@@ -2160,25 +1718,19 @@
   {
     "end": {
       "id": "HG315671_73",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_73",
     "label": "NEXT",
     "start": {
       "id": "HG315671_72",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_74",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV",
       "organism": "Formosa agariphila KMM 3901",
@@ -2189,25 +1741,19 @@
   {
     "end": {
       "id": "HG315671_74",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_74",
     "label": "NEXT",
     "start": {
       "id": "HG315671_73",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   },
   {
     "id": "HG315671_75",
-    "labels": [
-      "Gene"
-    ],
+    "labels": ["Gene"],
     "properties": {
       "name": "NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR",
       "organism": "Formosa agariphila KMM 3901",
@@ -2218,17 +1764,13 @@
   {
     "end": {
       "id": "HG315671_75",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "id": "HG315671_r_75",
     "label": "NEXT",
     "start": {
       "id": "HG315671_74",
-      "labels": [
-        "Gene"
-      ]
+      "labels": ["Gene"]
     },
     "type": "relationship"
   }

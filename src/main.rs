@@ -1,5 +1,6 @@
-mod embl_2_json;
-mod json_2_embl;
+mod embl_2_json; // Import the embl_2_json module
+mod json_2_embl; // Import the json_2_embl module
+mod json_2_fasta; // Import the json_2_fasta module
 
 fn main() {
     //get the command line arguments
@@ -32,6 +33,7 @@ fn main() {
             embl_2_json::process_embl(input_embl, output_json);
         }
 
+        //check if the command is convert
         "convert" => {
             //check if the number of arguments is correct
             if args.len() < 4 {
@@ -43,7 +45,24 @@ fn main() {
             let input_json = &args[2];
             //get the output from the arguments
             let output_embl = &args[3];
+            //call the convert_json function from the json_2_embl module
             let _ = json_2_embl::convert_json(input_json, output_embl);
+        }
+
+        //check if the command is update
+        "update" => {
+            //check if the number of arguments is correct
+            if args.len() < 4 {
+                //print the usage and exit the program
+                eprintln!("Usage: update <input.json> <output.fasta>");
+                std::process::exit(1);
+            }
+            //get the input from the arguments
+            let input_json = &args[2];
+            //get the output from the arguments
+            let output_fasta = &args[3];
+            //call the update_fasta function from the json_2_fasta module
+            let _ = json_2_fasta::update_fasta(input_json, output_fasta);
         }
 
         _ => {
