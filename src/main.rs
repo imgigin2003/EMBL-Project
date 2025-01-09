@@ -48,23 +48,6 @@ fn main() {
             //call the convert_json function from the json_2_embl module
             let _ = json_2_embl::convert_json(input_json, output_embl);
         }
-
-        //check if the command is update
-        "update" => {
-            //check if the number of arguments is correct
-            if args.len() < 4 {
-                //print the usage and exit the program
-                eprintln!("Usage: update <input.json> <output.fasta>");
-                std::process::exit(1);
-            }
-            //get the input from the arguments
-            let input_json = &args[2];
-            //get the output from the arguments
-            let output_fasta = &args[3];
-            //call the update_fasta function from the json_2_fasta module
-            let _ = json_2_fasta::update_fasta(input_json, output_fasta);
-        }
-
         _ => {
             //print the usage and exit the program
             eprintln!("Usage: <commnad> <input.embl> <output.json>");
