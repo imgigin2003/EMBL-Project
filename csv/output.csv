@@ -1,0 +1,154 @@
+id,labels,properties,type
+HG315671,"[""Contig""]","Some(Properties { name: Some(""Formosa agariphila KMM 3901""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""annotations"": Object {""accession"": String(""HG315671""), ""dates"": String(""31-AUG-2013 (Rel. 118, Created) 22-JUN-2015 (Rel. 125, Last updated, Version 5) ""), ""description"": String(""Formosa agariphila KMM 3901, complete genome""), ""keywords"": String(""complete genome.""), ""project"": String(""PRJEB3965;"")}, ""id"": String(""HG315671""), ""references"": Array [Object {""reference_number"": String(""1""), ""reference_position"": String(""1-4228350"")}, Object {""reference_number"": String(""2"")}], ""taxonomy"": String(""Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;Flavobacteriaceae; Formosa."")} })",node
+HG315671_0,"[""Lead""]","Some(Properties { name: Some(""source""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""source"")} })",node
+HG315671_r_0,HG315671 -> HG315671_0,"""OWNS""",relationship
+HG315671_1,"[""Gene""]","Some(Properties { name: Some(""/organism=\""Formosa""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/organism=\""Formosa"")} })",node
+HG315671_r_1,HG315671_0 -> HG315671_1,"""NEXT""",relationship
+HG315671_2,"[""Gene""]","Some(Properties { name: Some(""/strain=\""type""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/strain=\""type"")} })",node
+HG315671_r_2,HG315671_1 -> HG315671_2,"""NEXT""",relationship
+HG315671_3,"[""Gene""]","Some(Properties { name: Some(""/mol_type=\""genomic""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/mol_type=\""genomic"")} })",node
+HG315671_r_3,HG315671_2 -> HG315671_3,"""NEXT""",relationship
+HG315671_4,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""taxon:1347342\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""taxon:1347342\"""")} })",node
+HG315671_r_4,HG315671_3 -> HG315671_4,"""NEXT""",relationship
+HG315671_5,"[""Gene""]","Some(Properties { name: Some(""/culture_collection=\""KMM:3901\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/culture_collection=\""KMM:3901\"""")} })",node
+HG315671_r_5,HG315671_4 -> HG315671_5,"""NEXT""",relationship
+HG315671_6,"[""Gene""]","Some(Properties { name: Some(""CDS""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""CDS"")} })",node
+HG315671_r_6,HG315671_5 -> HG315671_6,"""NEXT""",relationship
+HG315671_7,"[""Gene""]","Some(Properties { name: Some(""/codon_start=1""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/codon_start=1"")} })",node
+HG315671_r_7,HG315671_6 -> HG315671_7,"""NEXT""",relationship
+HG315671_8,"[""Gene""]","Some(Properties { name: Some(""/transl_table=11""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/transl_table=11"")} })",node
+HG315671_r_8,HG315671_7 -> HG315671_8,"""NEXT""",relationship
+HG315671_9,"[""Gene""]","Some(Properties { name: Some(""/locus_tag=\""BN863_10\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/locus_tag=\""BN863_10\"""")} })",node
+HG315671_r_9,HG315671_8 -> HG315671_9,"""NEXT""",relationship
+HG315671_10,"[""Gene""]","Some(Properties { name: Some(""/product=\""lipoprotein""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/product=\""lipoprotein"")} })",node
+HG315671_r_10,HG315671_9 -> HG315671_10,"""NEXT""",relationship
+HG315671_11,"[""Gene""]","Some(Properties { name: Some(""protein""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""protein"")} })",node
+HG315671_r_11,HG315671_10 -> HG315671_11,"""NEXT""",relationship
+HG315671_12,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Gn:BN863_10\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Gn:BN863_10\"""")} })",node
+HG315671_r_12,HG315671_11 -> HG315671_12,"""NEXT""",relationship
+HG315671_13,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Tr:CDF77713\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Tr:CDF77713\"""")} })",node
+HG315671_r_13,HG315671_12 -> HG315671_13,"""NEXT""",relationship
+HG315671_14,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""GOA:T2KH40\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""GOA:T2KH40\"""")} })",node
+HG315671_r_14,HG315671_13 -> HG315671_14,"""NEXT""",relationship
+HG315671_15,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""UniProtKB/TrEMBL:T2KH40\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""UniProtKB/TrEMBL:T2KH40\"""")} })",node
+HG315671_r_15,HG315671_14 -> HG315671_15,"""NEXT""",relationship
+HG315671_16,"[""Gene""]","Some(Properties { name: Some(""/protein_id=\""CDF77713.1\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/protein_id=\""CDF77713.1\"""")} })",node
+HG315671_r_16,HG315671_15 -> HG315671_16,"""NEXT""",relationship
+HG315671_17,"[""Gene""]","Some(Properties { name: Some(""/translation=\""MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/translation=\""MNFPLYIAKRYLRSKSSNNAINFITIIAAIGVILGAASLFIVLSG"")} })",node
+HG315671_r_17,HG315671_16 -> HG315671_17,"""NEXT""",relationship
+HG315671_18,"[""Gene""]","Some(Properties { name: Some(""FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""FSGLKVFTLQFSSIIDPDLKAVPKSGKSFMLSSSQFKAMNNLDGVASYSKIIEERVILA"")} })",node
+HG315671_r_18,HG315671_17 -> HG315671_18,"""NEXT""",relationship
+HG315671_19,"[""Gene""]","Some(Properties { name: Some(""YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""YDGKNFPAFIKGVDENYNQVNAIDSVIIQGSWLRPNTDQMVAGWGVSNHLSLGVLDYGK"")} })",node
+HG315671_r_19,HG315671_18 -> HG315671_19,"""NEXT""",relationship
+HG315671_20,"[""Gene""]","Some(Properties { name: Some(""SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""SVTIYVPKPGTGQITSTKSAFNAIHCVNVGLFDINESLNETYIYTAFEKSRELLSYKQN"")} })",node
+HG315671_r_20,HG315671_19 -> HG315671_20,"""NEXT""",relationship
+HG315671_21,"[""Gene""]","Some(Properties { name: Some(""QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""QVSALEFKLNPNIDEDLIKPQLQAILGESVLIKNRVQLNDALYKMLNTENLAVYLIFTL"")} })",node
+HG315671_r_21,HG315671_20 -> HG315671_21,"""NEXT""",relationship
+HG315671_22,"[""Gene""]","Some(Properties { name: Some(""VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""VLIIALFNVIGSIVMMILDKKKTLSTLYKLGASVKDIRRIFFFQGSLMSIFGGIVGLIL"")} })",node
+HG315671_r_22,HG315671_21 -> HG315671_22,"""NEXT""",relationship
+HG315671_23,"[""Gene""]","Some(Properties { name: Some(""GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""GLIIVGLQQAFSLVMITPSLPYPVAITIPNIIVVLLTISVLGIIASKIASVRISKSLIK"")} })",node
+HG315671_r_23,HG315671_22 -> HG315671_23,"""NEXT""",relationship
+HG315671_24,"[""Gene""]","Some(Properties { name: Some(""TI\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""TI\"""")} })",node
+HG315671_r_24,HG315671_23 -> HG315671_24,"""NEXT""",relationship
+HG315671_25,"[""Gene""]","Some(Properties { name: Some(""CDS""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""CDS"")} })",node
+HG315671_r_25,HG315671_24 -> HG315671_25,"""NEXT""",relationship
+HG315671_26,"[""Gene""]","Some(Properties { name: Some(""/codon_start=1""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/codon_start=1"")} })",node
+HG315671_r_26,HG315671_25 -> HG315671_26,"""NEXT""",relationship
+HG315671_27,"[""Gene""]","Some(Properties { name: Some(""/transl_table=11""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/transl_table=11"")} })",node
+HG315671_r_27,HG315671_26 -> HG315671_27,"""NEXT""",relationship
+HG315671_28,"[""Gene""]","Some(Properties { name: Some(""/locus_tag=\""BN863_20\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/locus_tag=\""BN863_20\"""")} })",node
+HG315671_r_28,HG315671_27 -> HG315671_28,"""NEXT""",relationship
+HG315671_29,"[""Gene""]","Some(Properties { name: Some(""/product=\""ribosome-binding""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/product=\""ribosome-binding"")} })",node
+HG315671_r_29,HG315671_28 -> HG315671_29,"""NEXT""",relationship
+HG315671_30,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Gn:BN863_20\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Gn:BN863_20\"""")} })",node
+HG315671_r_30,HG315671_29 -> HG315671_30,"""NEXT""",relationship
+HG315671_31,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Tr:CDF77714\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Tr:CDF77714\"""")} })",node
+HG315671_r_31,HG315671_30 -> HG315671_31,"""NEXT""",relationship
+HG315671_32,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""GOA:T2KIB0\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""GOA:T2KIB0\"""")} })",node
+HG315671_r_32,HG315671_31 -> HG315671_32,"""NEXT""",relationship
+HG315671_33,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR000238\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR000238\"""")} })",node
+HG315671_r_33,HG315671_32 -> HG315671_33,"""NEXT""",relationship
+HG315671_34,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR015946\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR015946\"""")} })",node
+HG315671_r_34,HG315671_33 -> HG315671_34,"""NEXT""",relationship
+HG315671_35,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR023799\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR023799\"""")} })",node
+HG315671_r_35,HG315671_34 -> HG315671_35,"""NEXT""",relationship
+HG315671_36,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""UniProtKB/TrEMBL:T2KIB0\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""UniProtKB/TrEMBL:T2KIB0\"""")} })",node
+HG315671_r_36,HG315671_35 -> HG315671_36,"""NEXT""",relationship
+HG315671_37,"[""Gene""]","Some(Properties { name: Some(""/protein_id=\""CDF77714.1\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/protein_id=\""CDF77714.1\"""")} })",node
+HG315671_r_37,HG315671_36 -> HG315671_37,"""NEXT""",relationship
+HG315671_38,"[""Gene""]","Some(Properties { name: Some(""/translation=\""MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/translation=\""MESNRQKKIGSVLQRDLVDVLQNAATQGGMKGILISVSKVNVTVD"")} })",node
+HG315671_r_38,HG315671_37 -> HG315671_38,"""NEXT""",relationship
+HG315671_39,"[""Gene""]","Some(Properties { name: Some(""LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""LSIAKVYLSIFPNDKAKELLVGIRSNTPLIRHELAQRTKHQLRRMPNLEFFVDDSLEYI"")} })",node
+HG315671_r_39,HG315671_38 -> HG315671_39,"""NEXT""",relationship
+HG315671_40,"[""Gene""]","Some(Properties { name: Some(""DQIEKSLKGEDDPINNPDLLGKHKKS\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""DQIEKSLKGEDDPINNPDLLGKHKKS\"""")} })",node
+HG315671_r_40,HG315671_39 -> HG315671_40,"""NEXT""",relationship
+HG315671_41,"[""Gene""]","Some(Properties { name: Some(""tRNA""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""tRNA"")} })",node
+HG315671_r_41,HG315671_40 -> HG315671_41,"""NEXT""",relationship
+HG315671_42,"[""Gene""]","Some(Properties { name: Some(""/product=\""tRNA-Met-CAT\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/product=\""tRNA-Met-CAT\"""")} })",node
+HG315671_r_42,HG315671_41 -> HG315671_42,"""NEXT""",relationship
+HG315671_43,"[""Gene""]","Some(Properties { name: Some(""CDS""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""CDS"")} })",node
+HG315671_r_43,HG315671_42 -> HG315671_43,"""NEXT""",relationship
+HG315671_44,"[""Gene""]","Some(Properties { name: Some(""/codon_start=1""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/codon_start=1"")} })",node
+HG315671_r_44,HG315671_43 -> HG315671_44,"""NEXT""",relationship
+HG315671_45,"[""Gene""]","Some(Properties { name: Some(""/transl_table=11""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/transl_table=11"")} })",node
+HG315671_r_45,HG315671_44 -> HG315671_45,"""NEXT""",relationship
+HG315671_46,"[""Gene""]","Some(Properties { name: Some(""/locus_tag=\""BN863_30\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/locus_tag=\""BN863_30\"""")} })",node
+HG315671_r_46,HG315671_45 -> HG315671_46,"""NEXT""",relationship
+HG315671_47,"[""Gene""]","Some(Properties { name: Some(""/product=\""conserved""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/product=\""conserved"")} })",node
+HG315671_r_47,HG315671_46 -> HG315671_47,"""NEXT""",relationship
+HG315671_48,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Gn:BN863_30\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Gn:BN863_30\"""")} })",node
+HG315671_r_48,HG315671_47 -> HG315671_48,"""NEXT""",relationship
+HG315671_49,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Tr:CDF77715\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Tr:CDF77715\"""")} })",node
+HG315671_r_49,HG315671_48 -> HG315671_49,"""NEXT""",relationship
+HG315671_50,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR032577\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR032577\"""")} })",node
+HG315671_r_50,HG315671_49 -> HG315671_50,"""NEXT""",relationship
+HG315671_51,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""UniProtKB/TrEMBL:T2KG84\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""UniProtKB/TrEMBL:T2KG84\"""")} })",node
+HG315671_r_51,HG315671_50 -> HG315671_51,"""NEXT""",relationship
+HG315671_52,"[""Gene""]","Some(Properties { name: Some(""/protein_id=\""CDF77715.1\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/protein_id=\""CDF77715.1\"""")} })",node
+HG315671_r_52,HG315671_51 -> HG315671_52,"""NEXT""",relationship
+HG315671_53,"[""Gene""]","Some(Properties { name: Some(""/translation=\""MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/translation=\""MKKLIYLMVINVLIWSCDNKPKSVDASIIDDTTVAISYDSYGEKI"")} })",node
+HG315671_r_53,HG315671_52 -> HG315671_53,"""NEXT""",relationship
+HG315671_54,"[""Gene""]","Some(Properties { name: Some(""NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""NDSDVLTSDAMMAHYKNLKLGDTISSKLKGKIVEVCPKTGCWMTLDVKGDKTVLVRFKD"")} })",node
+HG315671_r_54,HG315671_53 -> HG315671_54,"""NEXT""",relationship
+HG315671_55,"[""Gene""]","Some(Properties { name: Some(""YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""YGFFMPLDAKGEAIVDGKAFVTETSVEELRHYAEDAGKSAEEIAAITMPKMQYRFEAEG"")} })",node
+HG315671_r_55,HG315671_54 -> HG315671_55,"""NEXT""",relationship
+HG315671_56,"[""Gene""]","Some(Properties { name: Some(""VLLIQ\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""VLLIQ\"""")} })",node
+HG315671_r_56,HG315671_55 -> HG315671_56,"""NEXT""",relationship
+HG315671_57,"[""Gene""]","Some(Properties { name: Some(""CDS""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""CDS"")} })",node
+HG315671_r_57,HG315671_56 -> HG315671_57,"""NEXT""",relationship
+HG315671_58,"[""Gene""]","Some(Properties { name: Some(""/codon_start=1""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/codon_start=1"")} })",node
+HG315671_r_58,HG315671_57 -> HG315671_58,"""NEXT""",relationship
+HG315671_59,"[""Gene""]","Some(Properties { name: Some(""/transl_table=11""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/transl_table=11"")} })",node
+HG315671_r_59,HG315671_58 -> HG315671_59,"""NEXT""",relationship
+HG315671_60,"[""Gene""]","Some(Properties { name: Some(""/locus_tag=\""BN863_40\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/locus_tag=\""BN863_40\"""")} })",node
+HG315671_r_60,HG315671_59 -> HG315671_60,"""NEXT""",relationship
+HG315671_61,"[""Gene""]","Some(Properties { name: Some(""/product=\""oxidoreductase""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/product=\""oxidoreductase"")} })",node
+HG315671_r_61,HG315671_60 -> HG315671_61,"""NEXT""",relationship
+HG315671_62,"[""Gene""]","Some(Properties { name: Some(""subgroup""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""subgroup"")} })",node
+HG315671_r_62,HG315671_61 -> HG315671_62,"""NEXT""",relationship
+HG315671_63,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Gn:BN863_40\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Gn:BN863_40\"""")} })",node
+HG315671_r_63,HG315671_62 -> HG315671_63,"""NEXT""",relationship
+HG315671_64,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""EnsemblGenomes-Tr:CDF77716\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""EnsemblGenomes-Tr:CDF77716\"""")} })",node
+HG315671_r_64,HG315671_63 -> HG315671_64,"""NEXT""",relationship
+HG315671_65,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""GOA:T2KH37\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""GOA:T2KH37\"""")} })",node
+HG315671_r_65,HG315671_64 -> HG315671_65,"""NEXT""",relationship
+HG315671_66,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR018170\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR018170\"""")} })",node
+HG315671_r_66,HG315671_65 -> HG315671_66,"""NEXT""",relationship
+HG315671_67,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR020471\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR020471\"""")} })",node
+HG315671_r_67,HG315671_66 -> HG315671_67,"""NEXT""",relationship
+HG315671_68,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR023210\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR023210\"""")} })",node
+HG315671_r_68,HG315671_67 -> HG315671_68,"""NEXT""",relationship
+HG315671_69,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""InterPro:IPR036812\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""InterPro:IPR036812\"""")} })",node
+HG315671_r_69,HG315671_68 -> HG315671_69,"""NEXT""",relationship
+HG315671_70,"[""Gene""]","Some(Properties { name: Some(""/db_xref=\""UniProtKB/TrEMBL:T2KH37\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/db_xref=\""UniProtKB/TrEMBL:T2KH37\"""")} })",node
+HG315671_r_70,HG315671_69 -> HG315671_70,"""NEXT""",relationship
+HG315671_71,"[""Gene""]","Some(Properties { name: Some(""/protein_id=\""CDF77716.1\""""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/protein_id=\""CDF77716.1\"""")} })",node
+HG315671_r_71,HG315671_70 -> HG315671_71,"""NEXT""",relationship
+HG315671_72,"[""Gene""]","Some(Properties { name: Some(""/translation=\""MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""/translation=\""MKTITLNDGNTTPQLGFGTYKSTEQEGIAAVKTAIKKGYRLIDTA"")} })",node
+HG315671_r_72,HG315671_71 -> HG315671_72,"""NEXT""",relationship
+HG315671_73,"[""Gene""]","Some(Properties { name: Some(""AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""AAYGNEAEVGKGIKESGISRKELFVTTKLWRESLGYESTKIELEASLKRLDLEYIDLYL"")} })",node
+HG315671_r_73,HG315671_72 -> HG315671_73,"""NEXT""",relationship
+HG315671_74,"[""Gene""]","Some(Properties { name: Some(""IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""IHWPANQKNYTNWKKTNAETWKAMEELQAEGKIKSIGVSNFFESHLDALLETAKVVPAV"")} })",node
+HG315671_r_74,HG315671_73 -> HG315671_74,"""NEXT""",relationship
+HG315671_75,"[""Gene""]","Some(Properties { name: Some(""NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR""), organism: Some(""Formosa agariphila KMM 3901""), extra: Object {""type"": String(""NQIEFHPGYWQPELVGYCKSKNIAVESWSPLARGKVFDNPELKSIAEKHNKSVSQICLR"")} })",node
+HG315671_r_75,HG315671_74 -> HG315671_75,"""NEXT""",relationship

@@ -1,6 +1,6 @@
 mod embl_2_json; // Import the embl_2_json module
 mod json_2_embl; // Import the json_2_embl module
-mod json_2_fasta; // Import the json_2_fasta module
+mod json_2_csv;// Import the json_2_fasta module
 
 fn main() {
     //get the command line arguments
@@ -47,6 +47,21 @@ fn main() {
             let output_embl = &args[3];
             //call the convert_json function from the json_2_embl module
             let _ = json_2_embl::convert_json(input_json, output_embl);
+        }
+
+        "update" => {
+            //check if the number of arguments is correct
+            if args.len() < 4 {
+                //print the usage and exit the program
+                eprintln!("Usage: update <input.json> <output.csv>");
+                std::process::exit(1);
+            }
+            //get the input from the arguments
+            let input_json = &args[2];
+            //get the output from the arguments
+            let output_csv = &args[3];
+            //call the update_csv function from the json_2_csv module
+            let _ = json_2_csv::update_csv(input_json, output_csv);
         }
         _ => {
             //print the usage and exit the program
